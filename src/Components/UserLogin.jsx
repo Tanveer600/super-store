@@ -13,7 +13,8 @@ function UserLogin() {
 
     if (response.isSuccess) {
       // Store login data in localStorage or state if needed
-      // Redirect to dashboard, for example:
+       localStorage.setItem('userName', userName);
+       localStorage.setItem('password', password);
       window.location.href = "/dashboard";
     } else {
       // Show error message

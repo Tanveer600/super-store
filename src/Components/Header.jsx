@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
 function Header() {
+  const [userName, setUserName] = useState('');
+  const [password, setPassword] = useState('');
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem('userName');
+    const storedPass = localStorage.getItem('password');
+    setUserName(storedUser || 'Guest');
+    setPassword(storedPass || '');
+  }, []);
   return (
+      <header id="page-topbar">
+    <div className="layout-width">
     <div className="navbar-header">
-            <div className="d-flex">
-              
+            <div className="d-flex">           
                 <div className="navbar-brand-box horizontal-logo">
                     <a href="index.html" className="logo logo-dark">
                         <span className="logo-sm">
@@ -685,14 +695,14 @@ function Header() {
                         <span className="d-flex align-items-center">
                             <img className="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar" />
                             <span className="text-start ms-xl-2">
-                                <span className="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Anna Adame</span>
-                                <span className="d-none d-xl-block ms-1 fs-12 user-name-sub-text">Founder</span>
+                                <span className="d-none d-xl-inline-block ms-1 fw-medium user-name-text">{userName}</span>
+                                <span className="d-none d-xl-block ms-1 fs-12 user-name-sub-text">{password}</span>
                             </span>
                         </span>
                     </button>
                     <div className="dropdown-menu dropdown-menu-end">
                        
-                        <h6 className="dropdown-header">Welcome Anna!</h6>
+                        <h6 className="dropdown-header">Welcome {userName}</h6>
                         <a className="dropdown-item" href="pages-profile.html"><i className="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span className="align-middle">Profile</span></a>
                         <a className="dropdown-item" href="apps-chat.html"><i className="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i> <span className="align-middle">Messages</span></a>
                         <a className="dropdown-item" href="apps-tasks-kanban.html"><i className="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i> <span className="align-middle">Taskboard</span></a>
@@ -706,6 +716,8 @@ function Header() {
                 </div>
             </div>
         </div>
+             </div>
+                        </header>
   )
 }
 

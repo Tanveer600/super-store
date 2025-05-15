@@ -3,6 +3,8 @@ import UserLogin from "./Components/UserLogin";
 import Dashboard from "./Components/Dashboard";
 // import Transaction from "./Components/Transaction";
 // import TransactionAccount from "./Components/TransactionAccount";
+import Accounts from "./Components/Accounts";
+import Transaction from "./Components/Transaction";
 import MainLayout from "./Layouts/MainLayout";
 import PrivateRoute from "./Services/PrivateRoute";
 import { useState, useEffect } from "react";
@@ -31,7 +33,7 @@ function App() {
             </PrivateRoute>
           }
         />
-        {/* <Route
+        <Route
           path="/transaction"
           element={
             <PrivateRoute>
@@ -46,11 +48,11 @@ function App() {
           element={
             <PrivateRoute>
               <MainLayout>
-                <TransactionAccount />
+                <Accounts />
               </MainLayout>
             </PrivateRoute>
           }
-        /> */}
+        /> 
       </Routes>
     </BrowserRouter>
   );

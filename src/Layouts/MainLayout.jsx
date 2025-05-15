@@ -6,12 +6,19 @@ import "../App.css";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="main-layout">
+    <div id="layout-wrapper">
       <Header />
       <div className="layout-body">
         <Sidebar />
-        <main className="main-content">{children}</main>
+         <div className="main-content">
+
+            <div className="page-content">
+            
+        <main className="container-fluid">{children}</main>
       </div>
+       </div>
+        </div>
+        
       <Footer />
     </div>
   );
