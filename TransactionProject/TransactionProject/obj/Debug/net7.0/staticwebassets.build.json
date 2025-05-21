@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "KG0SKKepszevDBOAG02tPD2Hbzci26GVQFhZh5wUvjA=",
+  "Source": "TransactionProject",
+  "BasePath": "_content/TransactionProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TransactionProject\\wwwroot",
+      "Source": "TransactionProject",
+      "ContentRoot": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\",
+      "BasePath": "_content/TransactionProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
