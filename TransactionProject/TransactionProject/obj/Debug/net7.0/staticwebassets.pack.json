@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\175246f9-3a5c-4f47-ba04-0a744d5e8265.png",
+      "PackagePath": "staticwebassets\\images\\175246f9-3a5c-4f47-ba04-0a744d5e8265.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\7a7958f5-2e85-4049-b0a6-073e15478f95.png",
+      "PackagePath": "staticwebassets\\images\\7a7958f5-2e85-4049-b0a6-073e15478f95.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\8050a34b-0365-4725-8c24-59f2c476594b.png",
+      "PackagePath": "staticwebassets\\images\\8050a34b-0365-4725-8c24-59f2c476594b.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\add9b9f7-cab7-4bd9-b1c0-502868582a9f.png",
+      "PackagePath": "staticwebassets\\images\\add9b9f7-cab7-4bd9-b1c0-502868582a9f.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\bbf50bd8-c2a9-43a9-bdd2-1de88e772e00.png",
+      "PackagePath": "staticwebassets\\images\\bbf50bd8-c2a9-43a9-bdd2-1de88e772e00.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\e3924369-f529-417a-8921-0599712e3188.png",
+      "PackagePath": "staticwebassets\\images\\e3924369-f529-417a-8921-0599712e3188.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\e832b1cb-fac1-484e-a266-9b432b3ca85e.png",
+      "PackagePath": "staticwebassets\\images\\e832b1cb-fac1-484e-a266-9b432b3ca85e.png"
+    },
+    {
+      "Id": "E:\\Projects\\TransactionProject\\TransactionProject\\wwwroot\\images\\f4fa76c6-cc93-453d-a8f4-7365479a59a5.png",
+      "PackagePath": "staticwebassets\\images\\f4fa76c6-cc93-453d-a8f4-7365479a59a5.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TransactionProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TransactionProject.props",
+      "PackagePath": "build\\TransactionProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TransactionProject.props",
+      "PackagePath": "buildMultiTargeting\\TransactionProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TransactionProject.props",
+      "PackagePath": "buildTransitive\\TransactionProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -12,6 +12,8 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.AddScoped<TransactionDAL>();
 builder.Services.AddScoped<AccountDAL>();
 builder.Services.AddScoped<ProductsDAL>();
+builder.Services.AddScoped<CartDAL>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
